@@ -1,1 +1,1 @@
-// JavaScript to handle any dynamic behavior if needed
+document.addEventListener('DOMContentLoaded', function() { const toggleButton = document.querySelector('#toggle-chart-button'); const chartContainer = document.querySelector('#monthly-chart'); toggleButton.addEventListener('click', function() { if (chartContainer.style.display === 'none' || chartContainer.style.visibility === 'hidden') { chartContainer.style.display = 'block'; chartContainer.style.visibility = 'visible'; } else { chartContainer.style.display = 'none'; chartContainer.style.visibility = 'hidden'; } }); });
