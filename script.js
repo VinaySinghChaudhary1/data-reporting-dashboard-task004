@@ -1,0 +1,1 @@
+// JavaScript to handle any dynamic behavior if needed
